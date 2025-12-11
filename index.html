@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculatrice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header> 
+    <h1>Calculatrice Interactive</h1>
+  </header>
+
+  <main>
+    <div class="calculator-container">
+      <form id="calculatriceForm">
+        <div class="input-group">
+          <input type="number" id="nombreA" placeholder="Nombre A" step="any">
+          <select id="operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">x</option>
+            <option value="/">÷</option>
+          </select>
+          <input type="number" id="nombreB" placeholder="Nombre B" step="any">
+        </div>
+        <button type="submit">Calculer</button>
+      </form>
+
+      <div id="erreur" class="message"></div>
+    </div>
+
+    <section id="historique">
+      <h2>Historique des opérations</h2>
+      <ul id="listeHistorique"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 TP6 - FSSM Semlalia</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

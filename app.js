@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
         resultat = a / b; 
         break;
     }
-    const symbole = op === "*" ? "×" : op === "/" ? "÷" : op === "-" ? "−" : op;
+    const symbole = op === "*" ? "x" : op === "/" ? "÷" : op === "-" ? "−" : op;
     const operationText = `${a} ${symbole} ${b}`;
     const li = document.createElement("li");
     li.innerHTML = `

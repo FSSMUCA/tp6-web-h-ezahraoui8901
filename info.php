@@ -1,5 +1,5 @@
  <?php
-$etablissement = "FSSM Semlalia";
+$etablissement = "FSSM";
 $module = "Programmation Web";
 $annee = 2025;
 $a = 7;
